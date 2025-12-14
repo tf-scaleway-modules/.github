@@ -4,8 +4,6 @@ Official, community-maintained **Terraform and OpenTofu modules for Scaleway**.
 
 This organization provides reusable, opinionated infrastructure modules to help teams build, deploy, and operate workloads on **Scaleway** using infrastructure as code best practices.
 
----
-
 ##  What you’ll find here
 
 -  Production-ready **Terraform modules**
@@ -13,19 +11,6 @@ This organization provides reusable, opinionated infrastructure modules to help 
 -  Modular, composable, and opinionated design
 -  Examples with sane defaults
 -  Clear documentation for every module
-
----
-
-##  Module structure
-
-All modules follow the standard Terraform / OpenTofu registry layout:
-
-<module-name>/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── README.md
-└── examples/
 
 ##  Usage
 
