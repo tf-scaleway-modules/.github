@@ -1,6 +1,6 @@
 # Terraform Scaleway Modules
 
-Official, community-maintained **Terraform and OpenTofu modules for Scaleway**.
+Open Source and Community-maintained **Terraform and OpenTofu modules for Scaleway**.
 
 This organization provides reusable, opinionated infrastructure modules to help teams build, deploy, and operate workloads on **Scaleway** using infrastructure as code best practices.
 
@@ -12,29 +12,31 @@ This organization provides reusable, opinionated infrastructure modules to help 
 -  Examples with sane defaults
 -  Clear documentation for every module
 
-##  Usage
+## List of Modules
 
-Example usage with Terraform or OpenTofu:
+### Released
 
-```hcl
-module "vpc" {
-  source  = "tf-scaleway-modules/vpc/scaleway"
-  version = ">= 1.0.0"
+| Name                               | Description                                                                 | Repository |
+|------------------------------------|-----------------------------------------------------------------------------|------------|
+| terraform-scaleway-iam             | Terraform module to manage Scaleway IAM users, applications, policies, and permissions. | https://github.com/tf-scaleway-modules/terraform-scaleway-iam |
+| terraform-scaleway-secrets-and-keys| Terraform module to manage Scaleway Secrets Manager and cryptographic keys. | https://github.com/tf-scaleway-modules/terraform-scaleway-secrets-and-keys |
+| terraform-scaleway-domains         | Terraform module to manage Scaleway domains and DNS zones.                  | https://github.com/tf-scaleway-modules/terraform-scaleway-domains |
+| terraform-scaleway-network         | Terraform module to manage Scaleway networking resources such as VPCs and gateways. | https://github.com/tf-scaleway-modules/terraform-scaleway-network |
+| terraform-scaleway-storage         | Terraform module to manage Scaleway Object Storage resources.               | https://github.com/tf-scaleway-modules/terraform-scaleway-storage |
+| terraform-scaleway-compute         | Terraform module to provision and manage Scaleway compute instances.        | https://github.com/tf-scaleway-modules/terraform-scaleway-compute |
+| terraform-scaleway-kubernetes      | Terraform module to create and manage Scaleway Kubernetes (Kapsule) clusters. | https://github.com/tf-scaleway-modules/terraform-scaleway-kubernetes |
+| terraform-scaleway-rdb             | Terraform module to provision and manage Scaleway Relational Database instances. | https://github.com/tf-scaleway-modules/terraform-scaleway-rdb |
+| terraform-scaleway-elastic-metal   | Terraform module to provision and manage Scaleway Elastic Metal (bare-metal) servers. | https://github.com/tf-scaleway-modules/terraform-scaleway-elastic-metal |
 
-  project_id = var.project_id
-  region     = "fr-par"
-}
-```
+### Coming Soon
 
-## Documentation
-
-Each module repository contains:
-
-- A detailed README.md
-- Inputs and outputs documentation
-- One or more usage examples
-
-Please refer to individual repositories for module-specific details.
+| Name                           | Description                                      |
+|--------------------------------|--------------------------------------------------|
+| terraform-scaleway-redis       | Terraform module to manage Scaleway Redis.       |
+| terraform-scaleway-mongodb     | Terraform module to manage Scaleway MongoDB.     |
+| terraform-scaleway-serverless  | Terraform module to manage Scaleway Serverless.  |
+| terraform-scaleway-ai          | Terraform module to manage Scaleway AI services. |
+| etc.                           | ...                                              |
 
 ## Contributing
 
