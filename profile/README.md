@@ -1,8 +1,9 @@
 # 🚀 Terraform Scaleway Modules
 
+[![Scaleway](https://img.shields.io/badge/Scaleway-Cloud-blue)](https://www.scaleway.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-Compatible-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![OpenTofu](https://img.shields.io/badge/OpenTofu-Compatible-0A0A0A)](https://opentofu.org/)
-[![Scaleway](https://img.shields.io/badge/Scaleway-Cloud-blue)](https://www.scaleway.com/)
+[![Terraform Registry](https://img.shields.io/badge/Terraform%20Registry-tf--scaleway--modules-844FBA?logo=terraform&logoColor=white)](https://registry.terraform.io/namespaces/tf-scaleway-modules)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
 
 **Open Source** and **community-maintained** Terraform & OpenTofu modules for **Scaleway**.
