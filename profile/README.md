@@ -16,17 +16,18 @@ This organization provides reusable, opinionated infrastructure modules to help 
 
 ### Released
 
-| Name                               | Description                                                                 | Repository |
-|------------------------------------|-----------------------------------------------------------------------------|------------|
-| terraform-scaleway-iam             | Terraform module to manage Scaleway IAM users, applications, policies, and permissions. | https://github.com/tf-scaleway-modules/terraform-scaleway-iam |
-| terraform-scaleway-secrets-and-keys| Terraform module to manage Scaleway Secrets Manager and cryptographic keys. | https://github.com/tf-scaleway-modules/terraform-scaleway-secrets-and-keys |
-| terraform-scaleway-domains         | Terraform module to manage Scaleway domains and DNS zones.                  | https://github.com/tf-scaleway-modules/terraform-scaleway-domains |
-| terraform-scaleway-network         | Terraform module to manage Scaleway networking resources such as VPCs and gateways. | https://github.com/tf-scaleway-modules/terraform-scaleway-network |
-| terraform-scaleway-storage         | Terraform module to manage Scaleway Object Storage resources.               | https://github.com/tf-scaleway-modules/terraform-scaleway-storage |
-| terraform-scaleway-compute         | Terraform module to provision and manage Scaleway compute instances.        | https://github.com/tf-scaleway-modules/terraform-scaleway-compute |
-| terraform-scaleway-kubernetes      | Terraform module to create and manage Scaleway Kubernetes (Kapsule) clusters. | https://github.com/tf-scaleway-modules/terraform-scaleway-kubernetes |
-| terraform-scaleway-rdb             | Terraform module to provision and manage Scaleway Relational Database instances. | https://github.com/tf-scaleway-modules/terraform-scaleway-rdb |
-| terraform-scaleway-elastic-metal   | Terraform module to provision and manage Scaleway Elastic Metal (bare-metal) servers. | https://github.com/tf-scaleway-modules/terraform-scaleway-elastic-metal |
+| Name                             | Description                                                                 | Repository |
+|----------------------------------|-----------------------------------------------------------------------------|------------|
+| terraform-scaleway-iam           | Terraform module to manage Scaleway IAM users, applications, policies, and permissions. | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-iam) |
+| terraform-scaleway-secrets-and-keys | Terraform module to manage Scaleway Secrets Manager and cryptographic keys. | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-secrets-and-keys) |
+| terraform-scaleway-domains       | Terraform module to manage Scaleway domains and DNS zones.                  | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-domains) |
+| terraform-scaleway-network       | Terraform module to manage Scaleway networking resources such as VPCs and gateways. | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-network) |
+| terraform-scaleway-storage       | Terraform module to manage Scaleway Object Storage resources.               | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-storage) |
+| terraform-scaleway-compute       | Terraform module to provision and manage Scaleway compute instances.        | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-compute) |
+| terraform-scaleway-kubernetes    | Terraform module to create and manage Scaleway Kubernetes (Kapsule) clusters. | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-kubernetes) |
+| terraform-scaleway-rdb           | Terraform module to provision and manage Scaleway Relational Database instances. | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-rdb) |
+| terraform-scaleway-elastic-metal | Terraform module to provision and manage Scaleway Elastic Metal (bare-metal) servers. | [Link](https://github.com/tf-scaleway-modules/terraform-scaleway-elastic-metal) |
+
 
 ### Coming Soon
 
