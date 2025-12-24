@@ -63,4 +63,9 @@ Please follow existing conventions and keep changes focused and well-scoped.
 
 ## 📄 License
 
-Unless stated otherwise, all modules are licensed under the **Apache License 2.0**.
+Unless stated otherwise, all modules are Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
+
+## Disclaimer
+
+The authors and contributors are not responsible for any issues, damages, or losses arising from the use of these modules. 
+These modules are provided "as is" without warranty. Always test in non-production environments first.
