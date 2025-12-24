@@ -68,4 +68,4 @@ Unless stated otherwise, all modules are Licensed under the Apache License, Vers
 ## Disclaimer
 
 The authors and contributors are not responsible for any issues, damages, or losses arising from the use of these modules. 
-These modules are provided "as is" without warranty. Always test in non-production environments first.
+These modules are provided "as is" without warranty. Always test in pre-production environments first.
